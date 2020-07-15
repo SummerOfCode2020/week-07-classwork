@@ -1,9 +1,10 @@
 # week-07-classwork
+
 Functional programming
 
 ## Instructions
 
-- Fork this repo
+- Fork this repo - shared at end of this chat
 - Clone your personal copy of this repo to your local machine
 
 ## Review
@@ -75,7 +76,7 @@ We may not recognize:
 
 ### What we do depends on what we don't recognize
 
-- syntax -> review repositories you have with similar code. -> Review the books -> Review MDN -> Review W3 Schools -> Review Stack Overflow
+- syntax -> review repositories you have with similar code. -> Review the books -> Review MDN -> Review W3 Schools -> Review Stack Overflow -> devdocs.io
 - variable naming -> use other code in the file and folder for context to understand. Use console.log. Use the debugger.
 - node modules -> view the docs on the node modules -> review your repositories with similar code.
 - configuration for modules -> view the docs on the node modules -> review your repositories with similar code.
@@ -93,3 +94,7 @@ We will **prepare for building a software system**. A software system is many mo
 Next week **we build web servers** to move content and data from the server to the client and from the client to the server.
 
 We need the basics we have learned so far to understand the syntax and code functionality. We need to know how to debug challenges as discussed tonight.
+
+## Finally! Classwork
+
+https://github.com/SummerOfCode2020/week-07-classwork
