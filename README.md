@@ -1,2 +1,2 @@
-# week-07-classword
+# week-07-classwork
 Functional programming
