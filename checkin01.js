@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: A pure function is one where the return value is only determined by its input values, without observable side effects
  */
 
 /**
