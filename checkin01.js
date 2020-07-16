@@ -8,7 +8,8 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: a function that returns the same value no matter how many times we run through it.
+        (as long as the input values are the same).
  */
 
 /**
@@ -36,7 +37,7 @@
     A: 
 
     Q: is the trimLeft() function idempotent?
-
+    A: 
  */
 
  
