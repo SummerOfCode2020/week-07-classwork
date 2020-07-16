@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: A function with no side-effects, output is impacted only by inputs
  */
 
 /**
