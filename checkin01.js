@@ -22,7 +22,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    A:   Functional programming seeks to avoid changing data
  */
 
 
