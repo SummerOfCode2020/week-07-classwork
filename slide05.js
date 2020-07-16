@@ -6,7 +6,9 @@
 
     The array is not altered.
     
-    Because it is completely self-contained in this way, we can call sumAll() on the array over and over again and always receive the same answer.
+    Because it is completely self-contained in this way, we can call sumAll() on the array 
+    over and over again and always receive the same answer.
+    - Doesn't do anything unexpected
 
     This function is "pure" and "Idempotent"
 
@@ -14,8 +16,10 @@
 function sumAll(ages) {
   let total = 0
 
-  for(let i = 0; i < ages.length; i++) {
+  for (let i = 0; i < ages.length; i++) {
     total += ages[i]
+    // expect tis is unchanged in each loop
+    console.log({ ages, total })
   }
 
   return total
@@ -28,7 +32,7 @@ const dayCampers = [1, 2, 3, 4, 5]
 // this is because the function uses the array value passed in
 //  **but** this implementation does not modify the value passed in
 // The "Win": This version of the `sumAll` function has achieved pure state and avoided "side effects"
-for(let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   console.log(sumAll(dayCampers))
 }
 

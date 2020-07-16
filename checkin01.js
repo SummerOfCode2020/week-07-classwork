@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: A function that uses the data input in to produce an outcome without mutating the original data
  */
 
 /**
@@ -39,7 +39,7 @@
 
  */
 
- 
+
 
 function trimLeft(str) {
     let arr = str.split('');
