@@ -33,10 +33,11 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: Yes, because it does not change str.
 
     Q: is the trimLeft() function idempotent?
-
+    A: Yes, because the result will be the same with the same input.
+  
  */
 
  
