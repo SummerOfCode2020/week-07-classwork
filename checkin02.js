@@ -7,7 +7,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a predicate function?
-    A: 
+    A: Boolean valued function
  */
 
 /**
@@ -19,7 +19,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a higher order function?
-    A: 
+    A: function against a function
  */
 
 
@@ -32,10 +32,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below which takes a string parameter, is the trimLeft() function pure?
-    A: 
+    A: yes
 
     Q: is the trimLeft() function idempotent?
-    A:
+    A:Yes
 
  */
 

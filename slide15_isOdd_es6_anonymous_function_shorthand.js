@@ -21,6 +21,6 @@ function ourFilter(arr, func) {
 const arr = [1, 2, 3, 4, 5]
 const retVal = arr.filter((n) => n % 2 === 1)
 
-console.log(retVal)
-console.log(arr)
+console.log({retVal})
+console.log({arr})
 
