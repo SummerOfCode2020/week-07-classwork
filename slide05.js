@@ -19,7 +19,7 @@ function sumAll(ages) {
   }
 
   return total
-}
+};
 
 // given this data
 const dayCampers = [1, 2, 3, 4, 5]

@@ -19,7 +19,7 @@
 
  */
 function sumAll(ages) {
-  let total = 0
+  let total = 0; // ES6 variable declaration
 
   while(ages.length) {
     // `ages` array is being modified
@@ -34,6 +34,7 @@ const dayCampers = [1, 2, 3, 4, 5]
 
 // looping here for example purposes to show that the result is not the same the second and third call
 // We see that this implementation has "side effects" so it is not an "Idempotent" function
-for(let i = 0; i < 3; i++) {
+for(let i = 0; i < 5; i++) {
+  console.log(i)
   console.log(sumAll(dayCampers))
 }
