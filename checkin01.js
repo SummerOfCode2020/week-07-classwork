@@ -36,6 +36,7 @@
 
     Q: Given the code below, is the trimLeft() function pure?
     A:  No because shift removes data from the array
+    A2: Reread this, and yes it's pure because it's breaking a temporary array but leaves the sring alone.
 
     Q: is the trimLeft() function idempotent?
 
