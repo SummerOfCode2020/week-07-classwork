@@ -24,7 +24,8 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    
+    A: Functional programming seeks to avoid the problems of scope pollution and ultimately the unintented mutation of data.  
  */
 
 
@@ -40,6 +41,7 @@
     A: 
 
     Q: is the trimLeft() function idempotent?
+    A: 
 
  */
 
