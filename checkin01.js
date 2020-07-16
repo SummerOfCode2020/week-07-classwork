@@ -34,10 +34,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: yes
 
     Q: is the trimLeft() function idempotent?
-    A: 
+    A: yes
  */
 
  
@@ -45,11 +45,19 @@
 function trimLeft(str) {
     let arr = str.split('');
     let i = 0;
-
+console.log({str, arr, i})
     while (arr[i] === ' ') {
         arr.shift();
+        console.log({arr})
         i++;
-    }
 
+        console.log(arr)
+
+    
+    }
     return arr.join('');
 }
+
+let sentence = " test this"
+console.log(trimLeft(sentence))
+console.log({sentence})
