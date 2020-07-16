@@ -38,10 +38,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: trimLeft() method in this function is pure because it is only working with local variables
 
     Q: is the trimLeft() function idempotent?
-    A: 
+    A: Idempotent functions do not affect strings, so--yes this function is idempotent
 
  */
 
