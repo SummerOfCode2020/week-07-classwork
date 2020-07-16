@@ -37,13 +37,13 @@
 
     Q: is the trimLeft() function idempotent?
     A: trimLeft() is idempotent because nothing is mutated outside of the function. 
-    
+
  */
 
  
 
 function trimLeft(str) {
-    let arr = str.split('');
+    let arr = str.split('');   
     let i = 0;
 
     while (arr[i] === ' ') {
@@ -53,3 +53,6 @@ function trimLeft(str) {
 
     return arr.join('');
 }
+let variableForTesting = 'This is a test'
+console.log(trimLeft(variableForTesting))
+console.log(variableForTesting)

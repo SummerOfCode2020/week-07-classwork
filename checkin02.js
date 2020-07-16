@@ -7,7 +7,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a predicate function?
-    A: 
+    A: A predicate function is one that takes arguments and return either true of false 
  */
 
 /**
@@ -19,7 +19,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a higher order function?
-    A: 
+    A: A higher order function is a function that takes a function as a parameter.
  */
 
 
@@ -32,10 +32,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below which takes a string parameter, is the trimLeft() function pure?
-    A: 
+    A: I think the trimLeft() is a pure function because it returns a value based only on its inputs
 
     Q: is the trimLeft() function idempotent?
-    A:
+    A: I think trimLeft() is NOT a idempotent function because the value returned is does not show any mutation. 
 
  */
 
