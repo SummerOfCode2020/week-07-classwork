@@ -16,6 +16,8 @@ function sumAll(ages) {
 
   for(let i = 0; i < ages.length; i++) {
     total += ages[i]
+    // expect this is unchanged in each loop
+    console.log({ages, total})
   }
 
   return total

@@ -98,3 +98,9 @@ We need the basics we have learned so far to understand the syntax and code func
 ## Finally! Classwork
 
 https://github.com/SummerOfCode2020/week-07-classwork
+
+
+
+## After Class
+
+Hang around if you want. Go write lots of code. Else other stuff.
