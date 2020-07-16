@@ -9,30 +9,31 @@ function isOdd(n) {
 }
 
 // no longer needed:
+/*
 function ourFilter(arr, func) {
  let newArr = []
 
   for (let i = 0; i < arr.length; i++) {
     if(func(arr[i])) {
-      newArr.push(arr[i)
+      newArr.push(arr[i])
     }
   }
 
   return newArr
 }
-
+*/
+/*
 const arr = [1, 2, 3, 4, 5]
 const retVal = arr.filter(isOdd)
 
 console.log(retVal)
 console.log(arr)
+*/
 
-/*
-slide12 - We also see that calling filter() on an array with only even numbers will return an empty list as we expected.
+// slide12 - We also see that calling filter() on an array with only even numbers will return an empty list as we expected.
 
 const arr = [2, 4, 6, 8]
 const retVal = arr.filter(isOdd)
 
 console.log(retVal)
 console.log(arr)
-*/

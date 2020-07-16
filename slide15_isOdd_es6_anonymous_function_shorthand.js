@@ -11,7 +11,7 @@ function ourFilter(arr, func) {
 
   for (let i = 0; i < arr.length; i++) {
     if(func(arr[i])) {
-      newArr.push(arr[i)
+      newArr.push(arr[i])
     }
   }
 

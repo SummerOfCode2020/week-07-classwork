@@ -19,11 +19,11 @@ function isOdd(n) {
 // The function that we pass as an argument to another function, is called a Callback function.
 // https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
 function ourFilter(arr, func) {
- let newArr = []
+  let newArr = []
 
   for (let i = 0; i < arr.length; i++) {
-    if(func(arr[i])) {
-      newArr.push(arr[i)
+    if (func(arr[i])) {
+      newArr.push(arr[i])
     }
   }
 
@@ -33,5 +33,6 @@ function ourFilter(arr, func) {
 const arr = [1, 2, 3, 4, 5]
 const retVal = ourFilter(arr, isOdd)
 
-console.log(retVal)
-console.log(arr)
+console.log({ retVal })
+console.log({ arr })
+
