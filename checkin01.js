@@ -9,8 +9,8 @@
 
     Q: What is a pure function?
     A: 
- */
-
+ */ A function that has no side Effect, return values 
+are only affected by the input values.
 /**
 
     Instructions. Do this next. 
