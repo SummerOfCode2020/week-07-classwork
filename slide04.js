@@ -20,10 +20,15 @@
  */
 function sumAll(ages) {
   let total = 0
-
-  while(ages.length) {
+  // while (predicate), this statement is evaluating to a true or false status
+  // if it's a value, then true, not a value then false.
+  // 1: [1, 2, 3, 4, 5]
+  // 2: [1, 2, 3, 4]
+  // 3: [1, 2, 3]
+  while (ages.length) {
     // `ages` array is being modified
     total += ages.pop()
+    console.log(ages)
   }
 
   return total
@@ -31,9 +36,13 @@ function sumAll(ages) {
 
 // given this data
 const dayCampers = [1, 2, 3, 4, 5]
+// Expect to see all of the data
+console.log({ dayCampers })
 
 // looping here for example purposes to show that the result is not the same the second and third call
 // We see that this implementation has "side effects" so it is not an "Idempotent" function
-for(let i = 0; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   console.log(sumAll(dayCampers))
 }
+// Expect to still see all of the data
+console.log({ dayCampers })

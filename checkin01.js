@@ -8,8 +8,12 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    
+    
+    A: A pure function is one that only accepts and uses inputs that are defined w/in that 
+    function's block scope 
  */
+
 
 /**
 
@@ -39,7 +43,7 @@
 
  */
 
- 
+
 
 function trimLeft(str) {
     let arr = str.split('');
