@@ -7,7 +7,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a predicate function?
-    A: 
+    A: A function that returns true or false (boolean value)
  */
 
 /**
@@ -19,7 +19,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is a higher order function?
-    A: 
+    A: A function that passes another function through it, and can return another function
  */
 
 
@@ -32,23 +32,25 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below which takes a string parameter, is the trimLeft() function pure?
-    A: 
+    A: Yes
 
     Q: is the trimLeft() function idempotent?
-    A:
+    A: Yes
 
  */
 
 function trimLeft(str) {
     let arr = str.split('');
     let i = 0;
-
+console.log({str, arr, i})
     while (arr[i] === ' ') {
         arr.shift();
+        console.log({arr})
         i++;
     }
 
     return arr.join('');
 }
-
-console.log(trimLeft('testings'))
+let sentence = ' testing'
+console.log(trimLeft(sentence))
+console.log(sentence)
