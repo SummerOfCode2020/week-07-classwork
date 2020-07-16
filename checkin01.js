@@ -33,7 +33,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: No
 
     Q: is the trimLeft() function idempotent?
 
