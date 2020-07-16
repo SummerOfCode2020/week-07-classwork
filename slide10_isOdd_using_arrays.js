@@ -18,12 +18,12 @@ function isOdd(n) {
 // A "higher order" function - a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
 // The function that we pass as an argument to another function, is called a Callback function.
 // https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
-function ourFilter(arr, func) {
+function ourFilter(arr, callBack) {
  let newArr = []
 
   for (let i = 0; i < arr.length; i++) {
-    if(func(arr[i])) {
-      newArr.push(arr[i)
+    if(callBack(arr[i])) {
+      newArr.push(arr[i])
     }
   }
 
@@ -33,5 +33,7 @@ function ourFilter(arr, func) {
 const arr = [1, 2, 3, 4, 5]
 const retVal = ourFilter(arr, isOdd)
 
-console.log(retVal)
-console.log(arr)
+console.log({retVal})
+//add {} to return the object
+
+console.log({arr})
