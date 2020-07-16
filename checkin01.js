@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: A function that does not mutate the input data globally, but only reads it.  This allows the function to be called with the same data repeatedly and it will yield the same results.
  */
 
 /**
