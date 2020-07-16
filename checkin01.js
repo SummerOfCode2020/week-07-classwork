@@ -20,7 +20,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    A: It seeks to perform math-like functions while avoiding changing/mutating data
  */
 
 
@@ -33,9 +33,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: I don't think so, I think the .shift() will mutate the input string
 
     Q: is the trimLeft() function idempotent?
+    A: I think so, I remember JR said it doesn't affect string/number params
 
  */
 
