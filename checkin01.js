@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: Pure function is a function that, given the same input, always returns the same output.
  */
 
 /**
