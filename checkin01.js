@@ -43,12 +43,21 @@
 
 function trimLeft(str) {
     let arr = str.split('');
+    //mutate the array but not str
     let i = 0;
-
+    console.log({str, arr, i})
+    
     while (arr[i] === ' ') {
         arr.shift();
+        console.log({arr})
         i++;
     }
 
     return arr.join('');
 }
+
+let sentence = " test this  "
+console.log(trimLeft( sentence))
+console.log({sentence})
+
+//sentence is unchanged
