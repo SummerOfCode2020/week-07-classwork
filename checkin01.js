@@ -20,7 +20,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    A: to limit impure code and keep it separate from everything else
  */
 
 
@@ -33,10 +33,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: yes because it doesn't alter the original str variable
 
     Q: is the trimLeft() function idempotent?
-
+    yes
  */
 
 
