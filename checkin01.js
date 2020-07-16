@@ -8,8 +8,10 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A:  a pure function is a function that doesn't change any data in the input. You can run it over and over on the same data set and always get the same answer
  */
+   
+
 
 /**
 
@@ -20,7 +22,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    A:   Functional programming seeks to avoid changing data
  */
 
 
@@ -33,7 +35,8 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A:  No because shift removes data from the array
+    A2: Reread this, and yes it's pure because it's breaking a temporary array but leaves the sring alone.
 
     Q: is the trimLeft() function idempotent?
 
