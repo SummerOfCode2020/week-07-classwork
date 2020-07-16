@@ -33,10 +33,11 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: I think the function below is pure because the output is calculated based on the paramaters passed.
 
     Q: is the trimLeft() function idempotent?
-
+    A: trimLeft() is idempotent because nothing is mutated outside of the function. 
+    
  */
 
  
