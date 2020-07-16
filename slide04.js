@@ -15,15 +15,20 @@
 
     Idempotency does not impact string and number parameters
 
-
-
  */
 function sumAll(ages) {
   let total = 0
 
-  while(ages.length) {
+  // Awesome question here: how is this a predicate?
+  // 0 is false in a predicate
+  // any number that is not 0 is true in a predicate
+
+  while(ages.length !== 0) {
     // `ages` array is being modified
+
     total += ages.pop()
+    console.log({ages})
+
   }
 
   return total
@@ -36,4 +41,7 @@ const dayCampers = [1, 2, 3, 4, 5]
 // We see that this implementation has "side effects" so it is not an "Idempotent" function
 for(let i = 0; i < 3; i++) {
   console.log(sumAll(dayCampers))
+  console.log(result)
 }
+
+
