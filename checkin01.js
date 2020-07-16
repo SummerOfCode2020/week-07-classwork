@@ -8,7 +8,7 @@
     - Create a PR to the `SummerOfCode2020` repo
 
     Q: What is a pure function?
-    A: 
+    A: it's a function where the return value the only one that will change, determined by the input values,  without any other side effects
  */
 
 /**
@@ -20,7 +20,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: 
+    A: functional programming seeks to avoid side effect,
  */
 
 
@@ -33,10 +33,10 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: Given the code below, is the trimLeft() function pure?
-    A: 
+    A: yes
 
     Q: is the trimLeft() function idempotent?
-
+    A: yes
  */
 
  
