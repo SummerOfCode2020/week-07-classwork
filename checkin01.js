@@ -20,7 +20,7 @@
     - Commit to your personal repository which can be expected to automatically reflect in your PR
 
     Q: What is the primary thing that functional programming seeks to avoid?
-    A: It is a function that computes a result based only on the parameters or values passed in.
+    A: Functional programmning avoids mutating data outside of the function.
  */
 
 
